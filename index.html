@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chowdhury Nabil Ahmed</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <nav>
+        <div class="left">
+            <a href="#home">
+                <img src="image/portfolio.png" alt="">
+                <span>My Portfolio</span>
+            </a>
+        </div>
+        <div class="right">
+            <a href="#skills">
+                <i class="fa-solid fa-code"></i>
+                <span>Skills</span>
+            </a>
+            <a href="#project">
+                <i class="fa-solid fa-list-check"></i>
+                <span>Projects</span>
+            </a>
+            <a href="#contact">
+                <i class="fa-solid fa-address-book"></i>
+                <span>Contact</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="hero">
+            <img src="image/image.png" alt="Profile" class="hero-image" />
+            <div class="hero-content">
+                <h1>Hi, I am Chowdhury Nabil Ahmed</h1>
+                <p>Currently pursuing BSc in Software Engineering. I am passionate about web development and project
+                    management.</p>
+                <div class="hero-buttons">
+                    <a href="https://github.com/nabil0203" target="_blank">Github</a>
+                    <a href="https://www.facebook.com/BlaZe.0203" target="_blank">Facebook</a>
+                    <a href="https://www.linkedin.com/in/nabil0203/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+
+
+        <section class="skills">
+            <h1>Skills</h1>
+            <div class="text">
+                Here are some tools that I use to built real life projects:
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="image/html.png" alt="">
+                    <span>HTML</span>
+                </div>
+                <div class="cell">
+                    <img src="image/css.png" alt="">
+                    <span>CSS</span>
+                </div>
+                <div class="cell">
+                    <img src="image/python.png" alt="">
+                    <span>Python</span>
+                </div>
+                <div class="cell">
+                    <img src="image/js.png" alt="">
+                    <span>JavaScript</span>
+                </div>
+                <div class="cell">
+                    <img src="image/react.png" alt="">
+                    <span>React</span>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="projects" class="project-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <i class="fa-solid fa-prescription-bottle-medical"></i>
+                    <h3>Medical Store Management System</h3>
+                    <p>A Console project implements a basic management system for a medical store in C.</p>
+                    <a href="https://github.com/nabil0203/Capstone_Project" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-car"></i>
+                    <h3>Car Showroom Management</h3>
+                    <p>Basic Car management in Java language utilizing the 4 pillars.</p>
+                    <a href="https://github.com/nabil0203/Car_Showroom_Management" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-book"></i>
+                    <h3>Library Management System</h3>
+                    <p>Library management built with HTML, CSS, PHP.</p>
+                    <a href="https://github.com/nabil0203/Library_Management_System" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <i class="fa-solid fa-qrcode"></i>
+                    <h3>QR Code Generator</h3>
+                    <p>A simple Python script that reads a Text/URL and a File name from a Text file. Then generates a
+                        QR code and saves it as an image.</p>
+                    <a href="https://github.com/nabil0203/QR_Code_Generator" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        <div class="contact-section">
+            <div class="contact-text">
+                <h2>Contact</h2>
+                <p>Feel free to connect with me for any collaboration:</p>
+            </div>
+
+            <form class="contact-form">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your full name" required />
+
+                <label>Email:</label>
+                <input type="email" placeholder="Your Email" required />
+
+                <label>Message:</label>
+                <textarea placeholder="Type your message here" rows="6" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 all rights reserved</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
